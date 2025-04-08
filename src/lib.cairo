@@ -20,10 +20,9 @@
 
 //     #[abi(embed_v0)]
 //     impl HelloStarknetImpl of super::IHelloStarknet<ContractState> {
-//         fn increase_balance(ref self: ContractState, amount: felt252) 
+//         fn increase_balance(ref self: ContractState, amount: felt252)
 //     }
-    
-    
+
 //     #[starknet::contract]
 //     mod Counter{
 //         use super::ICounter;
@@ -40,5 +39,6 @@
 //     }
 // }
 
+mod Counter;
+// pub mod ICounter;
 
-pub mod Counter;
