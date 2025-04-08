@@ -36,6 +36,7 @@ mod Counter{
             self.count.write(current_count - 1);
         }
         fn reset_count(ref self: ContractState){
+            
 
         }
 
